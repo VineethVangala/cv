@@ -9,6 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vineeth's Online Resume</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="myScript.js"></script>
 </head>
 
 <body>
@@ -45,9 +46,10 @@
   <hr>
   <h4>Professional Summary:</h4>
   <ul>
-    <li>Experienced SAP Commerce (Hybris) edveloper having 5 years experience.</li>
-    <li>Worked on 4 implementations, in both B2B and B2C recipes.</li>
-    <li>Implemented features related to CLP, PLP, WCMS, custom CMS components and Solr indexing.</li>
+    <li>Experienced SAP Commerce (Hybris) developer having <span id="total">5 years and 7 months</span> + of IT experience.</li>
+    <li>Currently working as a Hybris developer in implementation of a new marketplace site for Boeing.</li>
+    <li>Worked on 4 implementations over past 5 years, in both B2B and B2C recipes.</li>
+    <li>Implemented features related to CLP, PLP, PDP, OCC APIs, WCMS, custom CMS components and Solr indexing.</li>
     <li>Implemented product search by classification attribute values.</li>
     <li>Customized solr indexing to incorporate new Solr indexing modes.</li>
     <li>Implemented progress tracker for Solr indexing jobs.</li>
@@ -63,7 +65,7 @@
     <tbody>
       <tr>
         <td class="skills-td">SAP Commerce (Hybris)</td>
-        <td>Solr Indexing, Data modeling, Custom CMS components, Cronjobs, Hotfolder, Interceptors, Flexible search,
+        <td>Solr Indexing, Data modeling, OCC APIs, Custom CMS components, Cronjobs, Hotfolder, Interceptors, Flexible search,
           Impex, Groovy script</td>
       </tr>
       <tr>
@@ -84,7 +86,8 @@
   <h4>Work Experience:</h4>
   <table border="1">
     <tr>
-      <td colspan="4"><strong>Total Experience:</strong> 5 years and 1 months +</th>
+      <td colspan="4"><strong>Total IT Experience: </strong><span id="total2"></span> +<br>
+      <strong>Total SAP Hybris Experience: </strong><span id="relevant"></span> +</td>
     </tr>
     <tr>
       <th class="duration-header">Duration</th>
@@ -94,7 +97,7 @@
     </tr>
     <tbody>
       <tr>
-        <td rowspan="2" class="duration">06/2021 - till date<br>1 year & 8 months +</td>
+        <td rowspan="2" class="duration">June 2021 - till date<br><span id="boeing"></span> +</td>
         <td>Boeing India Private Limited</td>
         <td>Associate Hybris Developer</td>
         <td>Bengaluru, India</td>
@@ -104,15 +107,18 @@
           <p><Strong>&ensp;Responsibilities:</Strong></p>
           <ul>
             <li>SAP Commerce (Hybris) development for Boeing's new marketplace application implementation.</li>
+            <li>Implemented 3D image rendering capability in spartacus PDP.</li>
+            <li>Developed OCC APIs for spartacus storefront implementation.</li>
+            <li>Developed multiple cronjobs for catalog management.</li>
             <li>Customized Solr indexing jobs to allow new indexing operations.</li>
             <li>Enabled progress tracking for Solr indexingf jobs.</li>
-            <li>Created new page to list classification categories' hierarchy</li>
+            <li>Created new page flow to list classification categories' hierarchy.</li>
             <li>Implemented custom Solr search of products by classification attribute values.</li>
             <li>Implemented multiple hotfolders to enable product enrichment.</li>
-            <li>Created custom CMS components.</li>
+            <li>Created custom CMS components for JSP store.</li>
             <li>Extended product search functionality to include content page results.</li>
-            <li>Data modeling of custom cms components, categories and other itemtypes.</li>
-            <li>Implemented user stories related to PIM features like CLP and PLP.</li>
+            <li>Data modeling of custom cms components, products, categories and other itemtypes.</li>
+            <li>Implemented user stories related to PIM features like CLP, PLP, PDP, Search results page, etc.</li>
             <li>Enabled Solr indexing of new product model attributes.</li>
             <li>Participated in all SAFe® Agile ceremonies.</li>
           </ul>
@@ -120,7 +126,7 @@
       </tr>
       </tr>
       <tr>
-        <td rowspan="3" class="duration">01/2018 - 06/2021<br>3 years & 5 months</td>
+        <td rowspan="3" class="duration">Jan 2018 - June 2021<br><span id="tcs"></span></td>
         <td>Tata Consulatancy Services Limited</td>
         <td>Systems Engineer<br>Assistant Systems Engineer<br>Assistant Systems Engineer - Trainee</td>
         <td>Hyderabad, India<br>Bengaluru, India<br>Thiruvananthapuram, India</td>
@@ -143,6 +149,7 @@
             <li>Framed the SOP of frequent activities to achieve quicker incidents resolution.</li>
             <li>Monitored the site with tools like Dynatrace and Splunk.</li>
             <li>Participated in all ITIL and Agile ceremonies.</li>
+            <li>Underwent TCS's mandatory 3 months training (ILP - Initial Learning Program) in C#, ASP.Net, MS SQL Server, HTML, CSS, Javascript, ITIL. </li>
           </ul>
         </td>
       </tr>
