@@ -94,6 +94,15 @@ th {
     max-width: 144px;
 }
 
+.cert {
+    display: block;
+    height: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    margin-left: 10px;
+    max-width: 200px;
+}
+
 p {
     margin-top: 5px;
     margin-bottom: 0;

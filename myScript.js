@@ -4,11 +4,11 @@ function calculateExperience() {
     tcs_end = new Date(2021,5,4);
     boeing_start = new Date(2021,5,7);
     relevant_start = new Date(2018,4,20);
-    document.getElementById("boeing").innerText = dateDifference(boeing_start,today);
-    document.getElementById("tcs").innerText = dateDifference(tcs_start,tcs_end);
-    document.getElementById("total").innerText = dateDifference(tcs_start,today);
-    document.getElementById("total2").innerText = dateDifference(tcs_start,today);
-    document.getElementById("relevant").innerText = dateDifference(relevant_start,today);
+    document.getElementById("boeing-duration").innerText = dateDifference(boeing_start,today);
+    document.getElementById("tcs-duration").innerText = dateDifference(tcs_start,tcs_end);
+    document.getElementById("total-duration").innerText = dateDifference(tcs_start,today);
+    document.getElementById("total2-duration").innerText = dateDifference(tcs_start,today);
+    document.getElementById("relevant-duration").innerText = dateDifference(relevant_start,today);
 }
 
 function dateDifference(startDate,endDate){
